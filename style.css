@@ -18,7 +18,8 @@ body header{
 }
 
 body hr{
-    margin: 0%
+    margin: 0%;
+    opacity: 0%;
 }
 
 #navegador{
