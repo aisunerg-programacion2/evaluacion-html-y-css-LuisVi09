@@ -1,14 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum Vitae</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/web.png">
+  <link rel="stylesheet" href="style.css">
+  <title>MI CV</title>
 </head>
+
 <body>
-  
-  <h1>Curriculum Vitae</h1>
+  <!-- AQUÍ EMPIEZA EL ENCABEZADO -->
+  <header>
+    <div id="navegador">
+      <ul " class=" inline">
+        <li><a href="#experiencia">Experiencia profesional</a></li>
+        <li><a href="#habilidades">Habilidades y conocimientos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#perfiles-sociales">Contactar</a></li>
+        <li><a href="#contactar">Perfiles sociales</a></li>
+      </ul>
+    </div>
+  </header>
+  <hr>
+  <!-- AQUÍ EMPIEZA EL MAIN -->
+
+  <main>
+    <section>
+      <div class="imge">
+        <img src="./images/Foto.jpg" alt="foto de perfil" width="200px">
+      </div>
+
+      <div class="Informacionp">
+        <h2> Información Personal</h2>
+        <h3>Nombre: Luis Villanueva</h3>
+        <h4>Dni: 27463770</h4>
+        <h5>Edad: 20 años</h5>
+        <h6>Estudiante | Programación</h6>
+      </div>
+
+
+
+      <hr>
+
+
+      <!-- Tabla de experiencias -->
+
+
+      <h2 id="experiencia">Experiencia profesional</h2>
+      <table id="datoslaborales">
+        <thead>
+          <tr>
+            <th>Empresa / Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="primercuerpo">
+            <td>WebPlantel</td>
+            <td>Tester y desarrollador</td>
+            <td>Miami - Los Angeles</td>
+            <td> abril 2010 - Diciembre 2013</td>
+          </tr>
+          <tr>
+            <td>ServerdSecurity</td>
+            <td>Técnico de introdución de datos</td>
+            <td>Mexico - Tijuana</td>
+            <td> Junio 2014 - Marzo 2016</td>
+          </tr>
+          <tr>
+            <td>TecnoApps</td>
+            <td>Ingeniero en Programación</td>
+            <td>España - Barcelona</td>
+            <td>Diciembre 2016 - Septiembre 2019 </td>
+          </tr>
+          <tr>
+            <td>CorpBusiness</td>
+            <td>Director de proyecto</td>
+            <td>Costa rica - San José</td>
+            <td>Enero 2020 - Actualidad </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- HABILIDADES Y CONOCIMIENTOS -->
+
+      <hr>
+
+      <h2>Habilidades y conocimientos</h2>
+
+      <ol>
+        <li><b> Desarrollo Web</b></li>
+        <p>HTML, CSS, JavaScript, PHP, Jquery,SASS, Bootstrap, Nodejs, AngularJS</p>
+        <li><b>Desarrollo de Apps Moviles</b></li>
+        <p>Kotlin, Python, C#, C++, Swift, Matlab, TypeScript, Go, Rust</p>
+        <li><b>Marketing</b></li>
+        <p>Automatización de procesos, Copywriting, SEO, Gestión de redes sociales</p>
+
+      </ol>
+
+      <hr>
+
+      <div class="estudios">
+
+        <table>
+
+          <h2>Educación</h2>
+
+          <thead>
+            <tr>
+              <th>Titulo</th>
+              <th>Unidad Educativa</th>
+              <th>Año de Promoción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Ingeniería en Sistemas
+              </td>
+              <td> - Universidad Nacional Exprimental Romulo Gallegos</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>
+                Gestión de proyectos
+              </td>
+              <td> - Universidad Monteávila</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Maestria en negocios</td>
+              <td>- EOI Escuela de negocios</td>
+              <td>2010</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+      <hr>
+      <div id="contactar">
+        <h2>Contactar</h2>
+        <br>
+        <label for="correo"> <b> Correo e-mail</b> </label>
+
+        <br>
+
+        <input type="email" placeholder="Escribe tu correo electonico" name="correo" id="correo">
+        <br>
+        <br>
+        <label for="texto"> <b> Comunicado</b></label>
+        <br>
+        <input type="text" name="texto" id="texto" placeholder="Escribe tu comunicado" width="150px">
+        <br>
+        <br>
+
+        <input type="button" value="ENVIAR" name="boton" id="boton">
+      </div>
+      <hr #finaldelmain>
+    </section>
+  </main>
+
+  <!-- AQUI TERMINA EL MAIN -->
+
+
+  <!-- AQUÍ EMPIEZA EL FOOTER -->
+
+  <footer>
+
+    <div class="logos">
+    <a href="Facebook">  
+      <img src="images/facebook.png" alt="logofb" width="50px">
+    </a>
+    <a href="Twitter">  
+      <img src="images/twitter-sign.png" alt="logotwt" width="50px">
+    </a>  
+    <a href="Instagram">  
+      <img src="images/instagram.png" alt="logoinsta" width="50px">
+    </a>  
+    </div>
+    <div class="attribution">
+      Evaluación para Programación 2 - Sección N° 3</a>.
+      Codificado por <a href="#">LuisVI09</a>.
+    </div>
+
 
 </body>
+
 </html>
